@@ -34,6 +34,7 @@ int main(void){
 
   /* Init System, peripheral clock and multi-function I/O */
   SYS_Init();
+	
   /* Lock protected registers */
   SYS_LockReg();
 
